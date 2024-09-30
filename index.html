@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Test | Deska Mulyana</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="blue-text">My Skills Showcase</h1>
+        <button id="toggle-mode">Switch to Dark Mode</button>
+    </header>
+
+    <section class="card">
+        <h2 class="blue-text">About Me</h2>
+        <p>I am a web developer passionate about creating interactive and responsive websites.</p>
+    </section>
+
+    <section class="card">
+        <h2 class="blue-text">My Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2 class="blue-text">Interactive Demo</h2>
+        <form id="demoForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="skill">Skill:</label>
+            <select id="skill" name="skill">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="message"></p>
+    </section>
+
+    <footer id="main-footer">
+        <p class="blue-text">&copy; 2024 Your Name</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
